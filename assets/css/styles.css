@@ -1,0 +1,26 @@
+/* font-family: 'Playball', cursive;
+font-family: 'Bilbo Swash Caps', cursive;
+font-family: 'Meddon', cursive;
+font-family: 'IM Fell English SC', serif; */
+
+.jumbotron {
+    width: 90%;
+    margin: auto;
+}
+
+.display-4 {
+    font-family: 'IM Fell English SC', serif;
+    font-size: 4.5rem;
+    /* margin: auto; */
+    font-display: center;
+}
+
+.lead {
+    font-family: 'Meddon', cursive;
+}
+
+/* h1 {
+    font-family: 'IM Fell English SC', serif;
+    font-size: 4.5rem;
+    margin: auto;
+} */

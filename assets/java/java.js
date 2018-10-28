@@ -11,8 +11,8 @@ function makinButtons() {
   for (i = 0; i < topics.length; i++) {
     var btn = $("<button>");
     btn.text(topics[i]);
-    // btn.attr("id", gifButtons)
-    btn.attr("data-gifWord", topics[i])
+    btn.attr("data-gifWord", topics[i]);
+    //btn.attr("id", gifButtons); THIS BREAKS IT EVERY TIME, i want to add an ID to the buttons in order to separate button on-click and submit on-click
     $("#buttons").append(btn);
   };
 };
