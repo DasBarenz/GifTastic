@@ -3,24 +3,67 @@ font-family: 'Bilbo Swash Caps', cursive;
 font-family: 'Meddon', cursive;
 font-family: 'IM Fell English SC', serif; */
 
+body {
+    background-color: #0b172e !important;
+}
+
 .jumbotron {
-    width: 90%;
-    margin: auto;
+    width: 100%;
+    /* margin: auto; */
+    background-image: url("../images/subtleflag.jpg");
+    background-size: cover;
+    color: whitesmoke;
 }
 
 .display-4 {
     font-family: 'IM Fell English SC', serif;
-    font-size: 4.5rem;
-    /* margin: auto; */
+    font-size: 4.5rem !important;
     font-display: center;
 }
 
 .lead {
     font-family: 'Meddon', cursive;
+    /* font-display: center !important; */
+    font-size: 28px !important;
+    margin-left: 350px;
 }
 
-/* h1 {
+#buttons {
+    font-size: 22px;
+}
+
+#buttonsContainer {
+    width: 90%;
+    margin-left: 50px;
+}
+
+p {
     font-family: 'IM Fell English SC', serif;
-    font-size: 4.5rem;
+}
+
+form {
+    width: 90%;
     margin: auto;
-} */
+    font-size: 22px;
+}
+
+#gifs-appear-here {
+    width: 90%;
+    margin: auto;
+}
+
+button {
+    margin: 5px !important;
+    font-family: 'IM Fell English SC', serif !important;
+}
+
+::placeholder {
+    font-family: 'IM Fell English SC', serif;
+    font-size: 22px;
+}
+
+#submitButton {
+    font-size: 22px;
+    background-color: #ad2733;
+    border-style: none;
+}
